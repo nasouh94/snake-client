@@ -28,7 +28,10 @@ function handleUserInput(key) {
   }else if (key === "d") {
     connection.write("Move: right")
   }
-  
+  else if(key === "m"){
+    
+    connection.write("Say: hello")
+  }
 
 }
 
